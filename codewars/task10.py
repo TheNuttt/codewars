@@ -1,10 +1,10 @@
-# Задача 10: 
+# Задача 10: Удаляет повторяющиеся элементы из списка
 
 def unique_in_order(sequence):
     result = []
     for item in sequence:
         if not result or item != result[-1]:
             result.append(item)
-    return result 
+    return result        
 
-print(unique_in_order('AAAGwGSAHY'))
+print(unique_in_order("AAAABBBKKLFaccc"))
